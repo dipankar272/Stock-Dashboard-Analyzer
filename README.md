@@ -7,9 +7,13 @@ Hey there! 👋 Welcome to Stock Dashboard Analyzer, a Flask-based web app that 
 
 
 🔹 Visualize Stock Trends – Check out Moving Averages and Bollinger Bands for better trading decisions.
+
 🔹 Predict Future Prices – Uses ARIMA modeling to forecast where your stock might be headed.
+
 🔹 Compare Stocks – Select multiple stocks and generate a market correlation heatmap.
+
 🔹 News Sentiment Analysis – See what the media is saying about your stock—positive, negative, or neutral.
+
 🔹 Simple & Fast – Just enter a stock symbol (like AAPL or TSLA), hit Analyze, and get instant results!
 
 📦 How to Set It Up
