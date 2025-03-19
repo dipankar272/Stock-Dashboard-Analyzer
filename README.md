@@ -1,7 +1,11 @@
 Stock Dashboard Analyzer 🚀
+
+
 Hey there! 👋 Welcome to Stock Dashboard Analyzer, a Flask-based web app that gives you deep insights into the stock market. Whether you're a casual investor or a finance geek, this tool helps you track stock trends, compare multiple stocks, predict future prices, and analyze market sentiment—all in one place!
 
 ✨ What This App Can Do
+
+
 🔹 Visualize Stock Trends – Check out Moving Averages and Bollinger Bands for better trading decisions.
 🔹 Predict Future Prices – Uses ARIMA modeling to forecast where your stock might be headed.
 🔹 Compare Stocks – Select multiple stocks and generate a market correlation heatmap.
