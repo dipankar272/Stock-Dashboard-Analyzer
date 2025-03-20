@@ -5,7 +5,7 @@ Hey there! 👋 Welcome to Stock Dashboard Analyzer, a Flask-based web app that 
 
 ✨ What This App Can Do
 
-
+🔹 Live Deployment here -> **[Star](https://stock-dashboard-analyzer.onrender.com)**.\
 🔹 Visualize Stock Trends – Check out Moving Averages and Bollinger Bands for better trading decisions.
 
 🔹 Predict Future Prices – Uses ARIMA modeling to forecast where your stock might be headed.
