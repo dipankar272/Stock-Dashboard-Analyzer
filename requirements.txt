@@ -1,0 +1,8 @@
+flask
+pyngrok
+yfinance
+pandas
+matplotlib
+seaborn
+statsmodels
+textblob
