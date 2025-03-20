@@ -1,5 +1,4 @@
 # Step 1: Install dependencies
-!pip install flask pyngrok yfinance pandas matplotlib seaborn statsmodels textblob
 
 # Step 2: Import libraries
 from flask import Flask, render_template_string, request
