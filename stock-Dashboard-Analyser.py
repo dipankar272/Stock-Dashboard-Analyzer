@@ -174,21 +174,7 @@ def result():
     return render_template_string(result_html, ticker=ticker, ma_img=ma_img, bb_img=bb_img,
                                   arima_img=arima_img, news=news, corr_img=corr_img)
 
-# Step 7: Start Flask + ngrok
-os.system("kill -9 $(lsof -t -i:5000)")
-os.system("pkill ngrok")
-import time
-time.sleep(2)
-
-def run_app():
-    app.run(port=5000)
-
-def start_ngrok():
-    NGROK_AUTH_TOKEN = "2uX6QgqI0GgB3iQNH8c5rhD3TOO_2fbsnUiojnofhfXf5G7iX"  # Replace with your ngrok authtoken
-    ngrok.set_auth_token(NGROK_AUTH_TOKEN)
-    public_url = ngrok.connect(5000)
-    print(f"🚀 Your Flask app is live here: {public_url}")
-
-# Step 8: Launch
-Thread(target=run_app).start()
-start_ngrok()
+# Step 7: Start Flask 
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT',5000))
+    app.run(host = '0.0.0.0',port=port,debug=True)
