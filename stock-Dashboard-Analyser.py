@@ -133,7 +133,7 @@ def result():
         forecast = model_fit.forecast(steps=len(test))
         fig, ax = plt.subplots(figsize=(10, 4))
         ax.plot(train.index, train, label="Train")
-        ax.plot(test.index, test, label="Test")\
+        ax.plot(test.index, test, label="Test")
         ax.plot(test.index, forecast, label="Forecast", linestyle="dashed")
         ax.legend()
         ax.set_title(f"{ticker} - ARIMA Forecast")
